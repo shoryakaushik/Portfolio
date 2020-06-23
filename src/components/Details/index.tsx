@@ -6,6 +6,7 @@ import { Tabs } from "antd";
 import { Skills } from "../Skills";
 import { AboutMe } from "../AboutMe";
 import { WorkExperience } from "../WorkExperiece";
+import { Projects } from "../Projects";
 export const Details: React.FC = () => {
   const { TabPane } = Tabs;
 
@@ -16,7 +17,7 @@ export const Details: React.FC = () => {
         size={"large"}
         style={{
           padding: 10,
-          backgroundColor: "black",
+          backgroundColor: "#2F4F4F",
           color: "white",
           height: "100%",
         }}
@@ -47,7 +48,7 @@ export const Details: React.FC = () => {
           key="4"
           style={{ backgroundColor: "white", height: "76vh" }}
         >
-          Content of tab 3
+          <Projects />
         </TabPane>
         <TabPane
           tab="Sport Programming"

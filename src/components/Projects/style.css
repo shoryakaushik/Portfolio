@@ -1,0 +1,19 @@
+.project-content{
+    overflow: auto;
+    text-align:justify;
+    padding: 2em 2em 2em 2em;
+    color: black;
+}
+#header-project{
+    font: 2em;
+    color:black;
+
+}
+
+.tech{
+    font-size: 1.5em;
+}
+ul{
+    font-size: 1.5em;
+    color: rgb(114, 109, 109);
+}
