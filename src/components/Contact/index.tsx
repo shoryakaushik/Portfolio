@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-import logo from "/home/shorya_kaushik/portfolio/src/assets/rsz_me.jpg";
+import logo from "../../assets/rsz_me.jpg";
 
 import {
   FacebookOutlined,
