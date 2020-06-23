@@ -1,5 +1,27 @@
 .App {
   text-align: center;
+  background-image: url(./assets/cool-background.png);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
+  z-index: 900;
+
+}
+
+.left-content{
+  background: white;
+  margin: 5em 5em 5em 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.right-content{
+  background: white;
+  margin: 5em 5em 5em 1em;
+
 }
 
 
