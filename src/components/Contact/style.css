@@ -1,0 +1,12 @@
+header{
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(233, 87, 87);
+}
+
+.contact-icons{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    
+}
