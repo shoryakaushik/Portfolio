@@ -5,6 +5,7 @@ import "antd/dist/antd.css";
 import { Tabs } from "antd";
 import { Skills } from "../Skills";
 import { AboutMe } from "../AboutMe";
+import { WorkExperience } from "../WorkExperiece";
 export const Details: React.FC = () => {
   const { TabPane } = Tabs;
 
@@ -32,7 +33,7 @@ export const Details: React.FC = () => {
           key="2"
           style={{ backgroundColor: "white", height: "76vh" }}
         >
-          Content of tab 2
+          <WorkExperience />
         </TabPane>
         <TabPane
           tab="Skills"
