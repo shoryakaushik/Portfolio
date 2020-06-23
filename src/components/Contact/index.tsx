@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
 
+import logo from "/home/shorya_kaushik/portfolio/src/assets/rsz_me.jpg";
+
 import {
   FacebookOutlined,
   GithubOutlined,
@@ -12,6 +14,7 @@ export const Contact: React.FC = () => {
   return (
     <div className="contact-content">
       <div className="contact-name">
+        <img src={logo} alt="my"/> 
         <header>Shorya Kaushik</header>
         <label>shorya117@gmail.com | +91 8505891348</label>
       </div>

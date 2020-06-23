@@ -13,3 +13,8 @@ label{
     justify-content: space-around;
     
 }
+
+img{
+    height: 20em;
+    width: 20em;
+}
