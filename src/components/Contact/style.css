@@ -4,6 +4,9 @@ header{
     color: rgb(233, 87, 87);
 }
 
+label{
+    font-size: 0.95em;
+}
 .contact-icons{
     margin-top: 2em;
     display: flex;

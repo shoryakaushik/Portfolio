@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 
 import { Contact } from './components/Contact'
+import { Details } from './components/Details'
+
 const App: React.FC  = () =>{
   return (
     <div className="App">
@@ -9,7 +11,7 @@ const App: React.FC  = () =>{
               <Contact />
          </div>
          <div className = "right-content">
-              detils
+              <Details />
          </div>
     </div>
   );

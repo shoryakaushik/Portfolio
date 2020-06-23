@@ -13,7 +13,7 @@ export const Contact: React.FC = () => {
     <div className="contact-content">
       <div className="contact-name">
         <header>Shorya Kaushik</header>
-        <label>shorya117@gmail.com</label>
+        <label>shorya117@gmail.com | +91 8505891348</label>
       </div>
       <div className="contact-icons">
         <a href="https://www.facebook.com/shorya.kaushik.7/">
