@@ -23,7 +23,7 @@ export const Contact: React.FC = () => {
           <FacebookOutlined style={{ fontSize: "2.5em", color: "#00008B" }} />
         </a>
         <a href="https://github.com/shoryakaushik">
-          <GithubOutlined style={{ fontSize: "2.5em" }} />
+          <GithubOutlined style={{ fontSize: "2.5em" ,color: "black"}} />
         </a>
         <a href="https://www.linkedin.com/in/shorya-kaushik-13a820152/">
           <LinkedinOutlined style={{ fontSize: "2.5em", color: "#0000FF" }} />
