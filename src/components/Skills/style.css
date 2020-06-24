@@ -1,4 +1,8 @@
-img{
-    height: 13em;
-    width: 14em;
+.skill-content{
+    padding: 2em 2em 2em 2em;
+}
+
+#img-skill{
+    height:12em;
+    width: 15em;
 }

@@ -78,24 +78,27 @@ export const Skills: React.FC = () => {
       avatar: react,
     },
   ];
+  const { Meta } = Card;
 
   return (
-    <div>
-      <List
+    <div className="skill-content">
+     <List
         grid={{
           gutter: 16,
-          xs: 1,
-          sm: 2,
-          md: 4,
-          lg: 4,
-          xl: 6,
-          xxl: 3,
         }}
         dataSource={data}
         renderItem={(item) => (
           <List.Item>
-            <Card>
-            <img src={item.avatar} alt="key"/>{item.desp} 
+            <Card
+              hoverable
+              style={{ width: 230,height:300}}
+              cover={<img id="img-skill" alt="key" src={item.avatar} />}
+            >
+              <Meta
+                title={item.title}
+                description={item.desp}
+                style={{font:"large",color:"black"}}
+              />
             </Card>
           </List.Item>
         )}
