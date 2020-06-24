@@ -8,6 +8,8 @@ import { AboutMe } from "../AboutMe";
 import { WorkExperience } from "../WorkExperiece";
 import { Projects } from "../Projects";
 import { CP } from "../Competitve programming";
+import { Achievements } from "../Achievements";
+
 export const Details: React.FC = () => {
   const { TabPane } = Tabs;
 
@@ -63,14 +65,7 @@ export const Details: React.FC = () => {
           key="6"
           style={{ backgroundColor: "white", height: "76vh" }}
         >
-          Content of tab 3
-        </TabPane>
-        <TabPane
-          tab="Resume"
-          key="7"
-          style={{ backgroundColor: "white", height: "76vh" }}
-        >
-          Content of tab 3
+          <Achievements />
         </TabPane>
       </Tabs>
     </div>
