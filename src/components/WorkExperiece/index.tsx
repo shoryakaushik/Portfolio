@@ -26,6 +26,18 @@ export const WorkExperience: React.FC = () => {
         <li>Backend linking through Django, formatting by HTML/CSS</li>
         <li>Basic MVC framework applied, used Django default admin page as database to store user login info.</li>
       </ul>
+      <header id="header-work">3. Knuth Programming Hub</header>
+      <div className="profile">Role: Coordinator</div>
+      <div className="profile">August 2018-July2019</div>
+      <ul>
+        <li>Problem curator and problem tester of various National Level Coding challenges held over online competitive judges like Hackerrank.</li>
+        <li>Links to my problems:</li>
+        <ul>
+          <li><a href="https://www.hackerrank.com/contests/code-battle-3-1/challenges/starfire">Starfire</a></li>
+          <li><a href="https://www.hackerrank.com/contests/execute-18-2/challenges/max-and-furiosa/problem">Man And Furiosa</a></li>
+          <li><a href="https://www.hackerrank.com/contests/encode-final-2k18/challenges/special-number-1-2">Special Number 101</a></li>
+        </ul>
+      </ul>
     </div>
   );
 };

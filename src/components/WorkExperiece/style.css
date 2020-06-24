@@ -2,6 +2,8 @@
     text-align:justify;
     padding: 2em 2em 2em 2em;
     color: black;
+    overflow: auto;
+    height: 76vh;
 }
 #header-work{
     font: 2em;
@@ -15,4 +17,8 @@
 ul{
     font-size: 1.5em;
     color: rgb(114, 109, 109);
+}
+a{
+    color: blue;
+    font-size: large;
 }
