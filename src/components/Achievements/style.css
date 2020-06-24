@@ -1,4 +1,6 @@
 .achieve-content{
     padding: 2em 2em 2em 2em;
     text-align:justify;
+    overflow: auto;
+    height: 76vh;
 }

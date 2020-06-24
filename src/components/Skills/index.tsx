@@ -91,7 +91,6 @@ export const Skills: React.FC = () => {
           <List.Item>
             <Card
               hoverable
-              style={{ width: 230,height:300}}
               cover={<img id="img-skill" alt="key" src={item.avatar} />}
             >
               <Meta
