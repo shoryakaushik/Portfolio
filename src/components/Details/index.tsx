@@ -7,6 +7,7 @@ import { Skills } from "../Skills";
 import { AboutMe } from "../AboutMe";
 import { WorkExperience } from "../WorkExperiece";
 import { Projects } from "../Projects";
+import { CP } from "../Competitve programming";
 export const Details: React.FC = () => {
   const { TabPane } = Tabs;
 
@@ -55,7 +56,7 @@ export const Details: React.FC = () => {
           key="5"
           style={{ backgroundColor: "white", height: "76vh" }}
         >
-          Content of tab 3
+          <CP />
         </TabPane>
         <TabPane
           tab="Achievements"
