@@ -7,12 +7,12 @@ import { Details } from './components/Details'
 const App: React.FC  = () =>{
   return (
     <div className="App">
-         <div className = "left-content">
+         <section className = "left-content">
               <Contact />
-         </div>
-         <div className = "right-content">
+         </section>
+         <section className = "right-content">
               <Details />
-         </div>
+         </section>
     </div>
   );
 }

@@ -14,7 +14,7 @@ export const Details: React.FC = () => {
   const { TabPane } = Tabs;
 
   return (
-    <div className="detail-nav">
+    <main className="detail-nav">
       <Tabs
         defaultActiveKey="1"
         size={"large"}
@@ -68,6 +68,6 @@ export const Details: React.FC = () => {
           <Achievements />
         </TabPane>
       </Tabs>
-    </div>
+    </main>
   );
 };

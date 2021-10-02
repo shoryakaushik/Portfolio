@@ -34,7 +34,7 @@ export const Achievements: React.FC = () => {
   ];
 
   return (
-    <div className="achieve-content">
+    <main className="achieve-content">
       <List
         size="large"
         itemLayout="horizontal"
@@ -53,6 +53,6 @@ export const Achievements: React.FC = () => {
           </List.Item>
         )}
       />
-    </div>
+    </main>
   );
 };

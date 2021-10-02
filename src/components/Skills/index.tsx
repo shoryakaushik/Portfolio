@@ -81,7 +81,7 @@ export const Skills: React.FC = () => {
   const { Meta } = Card;
 
   return (
-    <div className="skill-content">
+    <main className="skill-content">
      <List
         grid={{
           gutter: 16,
@@ -102,6 +102,6 @@ export const Skills: React.FC = () => {
           </List.Item>
         )}
       />
-    </div>
+    </main>
   );
 };

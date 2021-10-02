@@ -1,9 +1,10 @@
 import React from "react";
 import "./style.css";
+import { P1, P2, P3 } from "../../common/links";
 
 export const WorkExperience: React.FC = () => {
   return (
-    <div className="exp-content">
+    <main className="exp-content">
       <header id="header-work">1. Hashedin Technologies</header>
       <div className="profile">Profile: Software Engineering Intern</div>
       <div className="profile">February 2020-Present</div>
@@ -33,11 +34,11 @@ export const WorkExperience: React.FC = () => {
         <li>Problem curator and problem tester of various National Level Coding challenges held over online competitive judges like Hackerrank.</li>
         <li>Links to my problems:</li>
         <ul>
-          <li><a href="https://www.hackerrank.com/contests/code-battle-3-1/challenges/starfire">Starfire</a></li>
-          <li><a href="https://www.hackerrank.com/contests/execute-18-2/challenges/max-and-furiosa/problem">Man And Furiosa</a></li>
-          <li><a href="https://www.hackerrank.com/contests/encode-final-2k18/challenges/special-number-1-2">Special Number 101</a></li>
+          <li><a href={P1}>Starfire</a></li>
+          <li><a href={P2}>Man And Furiosa</a></li>
+          <li><a href={P3}>Special Number 101</a></li>
         </ul>
       </ul>
-    </div>
+    </main>
   );
 };

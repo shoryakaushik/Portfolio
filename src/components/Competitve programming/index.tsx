@@ -25,7 +25,7 @@ export const CP: React.FC = () => {
   ];
   const { Meta } = Card;
   return (
-    <div className="cp-content">
+    <main className="cp-content">
       <List
         grid={{
           gutter: 16,
@@ -49,6 +49,6 @@ export const CP: React.FC = () => {
           </List.Item>
         )}
       />
-    </div>
+    </main>
   );
 };
