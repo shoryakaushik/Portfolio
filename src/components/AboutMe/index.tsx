@@ -3,7 +3,7 @@ import './style.css';
 
 export const AboutMe: React.FC = () =>{
     return(
-           <div className="about-content">
+           <main className="about-content">
                <p>
                    Hi,
                    <br />
@@ -15,6 +15,6 @@ export const AboutMe: React.FC = () =>{
 
                </p>
                
-           </div>
+           </main>
     );
 }

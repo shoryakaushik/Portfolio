@@ -3,7 +3,7 @@ import "./style.css";
 
 export const Projects: React.FC = () => {
   return (
-    <div className="project-content">
+    <main className="project-content">
       <header id="header-project">
         Voice Based Email System For The Blind
       </header>
@@ -74,6 +74,6 @@ export const Projects: React.FC = () => {
         </li>
         <li>Accuracy of the model in percentage:- 95.27</li>
       </ul>
-    </div>
+    </main>
   );
 };
